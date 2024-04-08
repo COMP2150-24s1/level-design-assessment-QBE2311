@@ -19,10 +19,46 @@ Example:
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+
+The player learns a number of concepts throughout the level. 
+- The combat utility of the staff and gun, from facing enemies in gradually more difficult positions. 
+
+![A Spitter on an elevated platform, and a Chomper in a recessed section of floor. Both are easily within staff reach.](DocImages/Enemies1.png)
+
+![A Spitter on a floating platform, with a number of other platforms nearby. No solid ground is visible.](DocImages/Enemies2.png)
+
+![A Spitter and Chomper attacking the player within an enclosed space. Behind the player is a pit, restricting their ability to retreat.](DocImages/Enemies3.png)
+
+- The limits of the player character's jumping abilities, through carefully placed platforms just beyond said limits. 
+
+![From near the start of the level, the player can see a key on an elevated platform. However, the player's jump is simply not high enough to reach it.](DocImages/JumpLimits.png)
+
+- And, notably, capability of the pushable boxes for puzzle solving in multiple aspects, namely in combination with pressure plates and acid.
+
+![A pushable box and a pressure plate are present in this area. When pressed, the plate opens the door to the key, but the door closes when the plate is no longer pressed.](DocImages/BoxAndPressurePlate.png)
+
+![By pushing the box onto the pressure plate, the door remains open, and the key can be collected.](DocImages/BoxOnPressurePlate.png)
+
+![Pushable boxes can be seen floating in acid, providing a platform to stand on. A box can also be seen on the shore, and can be pushed in for another platform.](DocImages/BoxesInAcid.png)
+
+The player learns these concepts each in relative isolation before being required to make use of their knowledge, allowing them time to familiarise themselves with and understand it properly before applying it.
 
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+
+The most readily accessible area of the level is fairly calm, with only a few enemies and light platforming present. 
+![The first level section, composed of relatively simple platforming with only a handful of enemies.](DocImages/LevelSection1.png)
+
+
+The next area ramps up, including numerous dangerous crystal spikes as well as providing the player with both a gun and a combat encounter in much tighter quarters.
+![The second level section, a crystal cave and minor enemy arena.](DocImages/LevelSection2.png)
+Once this area is cleared, however, the player exits the cave and is provided with a health box and a key, eliciting a sense of relief, safety, and progression.
+
+
+From here, the player moves to the final area, a subterrainean acid lake with pushable boxes floating on the surface. The acid, returning the player to their last checkpoint immediately if hit, is a notably more concerning hazard than the crystals. In addition, the boxes bob slightly in the acid, making platforming noticeably more difficult to perform safely. This section also has a relatively low ceiling, leading to much more tense jumps. Once the player has obtained this area's key, they still are not safe. They must also make their way back out the way they came, before being able to relax properly.
+![The third level section, with a number of floating boxes upon the lake of acid, and one spitter placed to incentivise utilising the player's ranged capabilities.](DocImages/LevelSection3.png)
+Once this section is cleared and escaped, the player is home free, and all tension is relieved.
+
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
@@ -76,25 +112,3 @@ No additional words are necessary for this section (any words should only be wit
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-
-## Generative AI Use Acknowledgement
-
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
-
